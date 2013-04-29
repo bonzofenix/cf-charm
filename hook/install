@@ -1,4 +1,5 @@
 #!/bin/bash
+
 set -eux # -x for verbose logging to juju debug-log
 juju-log "Installing ruby"
 apt-add-repository -y ppa:brightbox/ruby-ng
