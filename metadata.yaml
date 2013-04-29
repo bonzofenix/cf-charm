@@ -1,0 +1,9 @@
+name: cf
+summary: 'Cloudfoundry running on a juju vm'
+maintainer: 'cf charm dev <joaquin.vicente@altoros.com>, cf charm dev <alan.moran@altoros.com>'
+description: |
+  Installs cf un a ubuntu vm. the components installed are the following:
+    cloud_controller_ng
+    dea_ng
+    uaa
+

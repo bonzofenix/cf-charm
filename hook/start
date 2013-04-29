@@ -1,0 +1,7 @@
+#!/bin/bash
+
+juju-log "start running chef receiptss"
+chef-solo -c ~/cf-vagrant-installer/chef/chefsoloconfig.rb -j ~/cf-vagrant-installer/chef/roles/cf.json
+
+
+
