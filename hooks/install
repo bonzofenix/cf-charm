@@ -7,7 +7,7 @@ apt-get -qq update
 apt-get install -y -qq ruby1.9.1-dev
 
 juju-log "Installing git"
-apt-get git
+apt-get install git
 
 juju-log "Installing chef gem"
 gem install chef
