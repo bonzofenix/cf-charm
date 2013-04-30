@@ -4,10 +4,10 @@ set -eux # -x for verbose logging to juju debug-log
 juju-log "Installing ruby"
 apt-add-repository -y ppa:brightbox/ruby-ng
 apt-get -qq update
-apt-get install -y -qq ruby1.9.1-dev
+apt-get install -y -qq ruby1.9.1-dev 
 
 juju-log "Installing git"
-apt-get install git
+apt-get install -y git
 
 juju-log "Installing chef gem"
 gem install chef
