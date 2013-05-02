@@ -18,4 +18,4 @@ juju-log "Installing chef gem"
 gem install chef
 
 juju-log "clone chef recipts"
-git clone https://github.com/Altoros/cf-vagrant-installer.git
+git clone https://github.com/Altoros/cf-vagrant-installer.git /root/cf-vagrant-installer
